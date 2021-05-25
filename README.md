@@ -10,7 +10,7 @@ pip3 install opencv-python
 ```
 # 쓰는 방법
 ```bash
-python3 vid2img.py [your video file]
+python3 lens-prof.py [your video file]
 ```
 그리고 설명을 따르고 진행해주세요.
 

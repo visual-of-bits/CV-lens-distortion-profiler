@@ -33,9 +33,9 @@ def findcal(nx,ny,img,sc):
  except Exception:
     pass
 
-#main for here
+#main from here
 if (len(args) != 2):  
- print("Put video file name...")
+ print("영상 파일의 이름을 써주세요...")
  quit() 
 
 #sample image
@@ -44,9 +44,9 @@ vidcap.set(cv2.CAP_PROP_FPS,1)
 hav,image = vidcap.read()
 
 #chessboard profile
-print("Number of chessboard blocks vertically:",end='')
+print("체스보드의 길이(수평):",end='')
 gx=int(input())
-print("Number of chessboard blocks horizontally:",end='')
+print("체스보드의 길이(수직):",end='')
 gy=int(input())
 
 #do until video end
